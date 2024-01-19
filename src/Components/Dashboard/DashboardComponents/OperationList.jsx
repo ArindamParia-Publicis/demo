@@ -1,7 +1,6 @@
 import React from "react";
 import "../Dashboard.css";
 import { Link } from "react-router-dom";
-
 function OperationList() {
   return (
     <div id="operationList" className="operationCard">
