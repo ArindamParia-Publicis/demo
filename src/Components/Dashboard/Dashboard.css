@@ -1,0 +1,165 @@
+#userDetailCard {
+  width: 380px;
+  height: 500px;
+  background-color: #dd517f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 30px;
+  margin: 15px;
+  box-shadow: #dd517f 0px 3px 8px;
+}
+#userDetailCard * {
+  background-color: inherit;
+}
+.heading {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0 0 5px;
+  text-decoration: underline;
+  background-color: inherit;
+}
+#userImage {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+#userImage p {
+  font-size: 1.8rem;
+}
+#userDetailCard img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.line {
+  width: 340px;
+  border: 2px solid black;
+  margin: 5px 0;
+}
+#dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#dashboard p {
+  text-shadow: black 2px 5px 8px;
+}
+.operationCard {
+  width: 380px;
+  min-height: 580px;
+  background-color: #dd517f;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 15px;
+  box-shadow: #dd517f 0px 3px 8px;
+}
+#operationList .operation {
+  background-color: #a2a8d3;
+  height: 70px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.operationCard * {
+  background-color: inherit;
+}
+.operationCard .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.operationCard .heading p {
+  font-size: 1.5rem;
+  margin-right: 60px;
+}
+.operationCard form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.operationCard .inputBox {
+  color: var(--c-gray-900);
+  background-color: var(--c-gray-100);
+  border-style: none;
+  padding: 5px 10px;
+  height: 40px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  margin: 10px 0 0 0;
+  width: 100%;
+  margin: 7px 0;
+}
+.operationCard button {
+  border-style: none;
+  padding: 12px;
+  background-color: #a2a8d3;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  box-shadow: #a2a8d3 0px 3px 8px;
+  margin-top: 12px;
+  width: 150px;
+}
+
+#FDResult {
+  font-size: 1.2rem;
+}
+label {
+  font-size: 1.2rem;
+  text-shadow: greenyellow 2px 5px 8px;
+  text-decoration: underline;
+}
+#loanCard select {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding: 6px;
+  background-color: #17cdd0;
+  box-shadow: #17cdd0 2px 0px 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  border-style: none;
+}
+#FDCard,
+#loanCard {
+  align-items: center;
+}
+#FDCard form,
+#loanCard form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#transactionsCard {
+  padding: 10px;
+}
+.tableHeader {
+  text-decoration: underline;
+  font-weight: 700;
+}
+.success {
+  color: green;
+  margin: 3px 0;
+  font-size: 1.05rem;
+  text-shadow: 2px 2px 5px black;
+}
+.warning {
+  color: red;
+  margin: 3px 0;
+  font-size: 1.05rem;
+  text-shadow: 2px 2px 5px black;
+}
+#loansCard {
+  min-width: 430px;
+}
+.tableValue {
+  text-align: center;
+}

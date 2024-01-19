@@ -1,0 +1,14 @@
+env:
+  browser: true
+  es2021: true
+extends: [airbnb,"prettier"]
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+rules: {
+  "react/react-in-jsx-scope": "off",
+   "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"], }],
+   "quotes": "off",
+   "linebreak-style": 0,
+   "jsx-a11y/label-has-associated-control": "off",
+}

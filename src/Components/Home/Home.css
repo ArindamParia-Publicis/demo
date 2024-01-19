@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Archare";
+  src: url("../../../Fonts/archare.ttf");
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  background-color: var(--c-gray-900);
+  padding: 0 4vw;
+  font-family: "Archare";
+  letter-spacing: 3px;
+  text-shadow: rgb(58, 181, 234) 2px 7px 8px;
+}
+#navbar p {
+  background: inherit;
+  font-size: 1.6rem;
+}
+.reactLink {
+  font-size: 1.6rem;
+  color: var(--c-gray-100);
+}
+.visible {
+  display: block;
+}
+.invisible {
+  display: none;
+  width: 0px;
+}
