@@ -6,7 +6,8 @@ import SignUp from "./Components/SignUp/SignUp";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Deposit from "./Components/Dashboard/DashboardComponents/Deposit";
 import Withdraw from "./Components/Dashboard/DashboardComponents/Withdraw";
-
+import { DataProvider } from "./dataContext";
+import Error from "./Components/Error/Error";
 
 function App() {
   return (
