@@ -1,5 +1,5 @@
 module.exports = {
-  roots: ["./test"],
+  roots: ["./src"],
   // Module file extensions for importing
   moduleFileExtensions: ["js", "jsx"],
 };
