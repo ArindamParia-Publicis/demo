@@ -2,7 +2,6 @@ import React, { createContext, useState, useMemo } from "react";
 import PropTypes from "prop-types";
 
 export const DataContext = createContext();
-
 export function DataProvider({ children }) {
   const dt = {
     token: "",

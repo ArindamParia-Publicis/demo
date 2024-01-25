@@ -24,12 +24,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --config ./jest-config.js",
+    "test": "jest --config ./jest-config.js --watchAll=false --coverage --testResultsProcessor jest-sonar-reporter",
     "eject": "react-scripts eject",
-    "lint:fix": "npx eslint src/**/*.jsx --fix ",
-    "prettier": "prettier --write 'src/**/*.{js,jsx}'",
+    "lint:fix": "npx eslint src/** --fix -f json -o eslint-report.json",
+    "prettier": "prettier --write src/**/*.{js,jsx}",
     "format": "npm run prettier && npm run lint:fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "sonar": "node ./sonarqube/sonarscan.js"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +61,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.0",
     "jest": "^27.5.1",
+    "jest-sonar-reporter": "^2.0.0",
     "prettier": "^3.2.4"
   }
 }

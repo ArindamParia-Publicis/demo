@@ -26,3 +26,9 @@ yarn-error.log*
 sonarqube/extensions
 sonarqube/data
 sonarqube/logs
+
+
+#SonarQube
+test-report.xml
+eslint-report.json
+/.scannerwork
